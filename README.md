@@ -18,4 +18,4 @@ One of the main developers of the package says in his comment, there is no bug a
 The comment: https://github.com/dart-lang/build/issues/2292#issuecomment-497805462
 
 ## Correcting the mistakes
-If you think there is something wrong in this repository which cause the problem mentioned here, please feel free to send a pull request with the corrected code, or open an issue stating the source of the problem.
+If you think there is something wrong in this repository which causes the problem mentioned here, please feel free to send a pull request with the corrected code, or open an issue stating the source of the problem.
