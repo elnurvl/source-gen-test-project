@@ -13,7 +13,7 @@ The video: https://1drv.ms/u/s!ArT19eL-omOjhY0wxeUJsLVZeTwf4Q
 #2292: https://github.com/dart-lang/build/issues/2292
 
 ## Solution suggestions
-One of the main developer of the package says in his comment, there is no bug and it works when the project is set up correctly. I suggest, either to improve the code in order to achieve easier test setup or to improve the documentation in order to prevent any confusion while working with the package, as it is quite hard to detect a problem especially when almost identical codes give different results.
+One of the main developers of the package says in his comment, there is no bug and it works when the project is set up correctly. I suggest, either to improve the code in order to achieve easier test setup or to improve the documentation in order to prevent any confusion while working with the package, as it is quite hard to detect a problem especially when almost identical codes give different results.
 
 The comment: https://github.com/dart-lang/build/issues/2292#issuecomment-497805462
 
