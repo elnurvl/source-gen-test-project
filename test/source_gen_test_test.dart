@@ -11,8 +11,10 @@ void main() {
         'annotations|lib/annotations.dart': annotations,
         'source_gen_test|lib/test.dart': input
       };
-      await testBuilder(builder, assets,
-       rootPackage: 'source_gen_test');
+      var outputs = {
+        'source_gen_test|lib/test.g.dart': output
+      };
+      await testBuilder(builder, assets, outputs: outputs, rootPackage: 'source_gen_test');
     });
   });
 }
@@ -29,7 +31,7 @@ class Test {
 }
 ''';
 
-var annotations= r'''
+var annotations = r'''
 library annotations;
 
 class TestAnnot{
@@ -37,3 +39,6 @@ class TestAnnot{
 }
 ''';
 
+var output = '''
+//It worked!
+''';
