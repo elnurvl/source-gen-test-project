@@ -8,6 +8,7 @@ The `testBuilder` method of the package does not work properly when the generato
 As said in #1828 and #2292 of the `build` package, it can work in some machines with the same code base which makes it hard to reproduce the problem. You can find the proof of the problem on the links below.
 
 Video: https://1drv.ms/u/s!ArT19eL-omOjhY0wxeUJsLVZeTwf4Q
+
 #1828: https://github.com/dart-lang/build/issues/1828
 #2292: https://github.com/dart-lang/build/issues/2292
 
