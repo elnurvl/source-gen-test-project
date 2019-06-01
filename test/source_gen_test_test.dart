@@ -39,6 +39,14 @@ class TestAnnot{
 }
 ''';
 
-var output = '''
+var output = r'''
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of source_gen_test;
+
+// **************************************************************************
+// TestGeneratorAnnot
+// **************************************************************************
+
 //It worked!
 ''';
