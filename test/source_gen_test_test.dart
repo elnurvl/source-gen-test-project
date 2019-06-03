@@ -9,6 +9,7 @@ void main() {
       var builder = PartBuilder([TestGeneratorAnnot()], '.g.dart');
       var assets = {
         'annotations|lib/annotations.dart': annotations,
+        'annotations|lib/src/annotations_base.dart': annotationsBase,
         'source_gen_test|lib/test.dart': input
       };
       var outputs = {
@@ -32,8 +33,10 @@ class Test {
 ''';
 
 var annotations = r'''
-library annotations;
+export 'src/annotations_base.dart';
+''';
 
+var annotationsBase = r'''
 class TestAnnot{
   const TestAnnot();
 }
@@ -45,7 +48,7 @@ var output = r'''
 part of source_gen_test;
 
 // **************************************************************************
-// TestGeneratorAnnot
+// Generator: TestGeneratorAnnot
 // **************************************************************************
 
 //It worked!
