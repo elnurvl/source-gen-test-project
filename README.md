@@ -1,4 +1,6 @@
-This is an experimental project to show a bug in the `build_test` package. 
+This is an experimental project to show a bug in the `build_test` package.
+
+### UPDATE: Fixed
 
 ## Bug details
 
